@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: sans-serif;
+    background: linear-gradient(to left,#55b36c, #4fa164);
+    background-attachment: fixed; /* Ensures background remains fixed during scrolling */
+    background-size: cover;
+
+}
+i{
+  cursor: pointer;  
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+.mobile{
+    width: 341px;
+    position: relative;
+    background: linear-gradient(to left, #37894b,#184c25);
+    height: 638px;
+    border-radius: 40px;
+    border: 3px solid white;
+}
+.type{
+    position: relative;
+    width :341px; 
+    position: absolute;
+    top: 124px;
+}
+.img{
+    width :341px; 
+    position: absolute;
+    top: 152px;
+}
+.mobile img{
+    width :335px; 
+    position: absolute;
+    top: 50px;
+}
+.mobile hr{
+    color: azure;
+    position: absolute;
+    height: 1px;
+    width: 335px;
+    top: 90%;
+}
+.list{
+    margin-left: 1px;
+    background: linear-gradient(to left, #4ea363,#144721);
+    border-radius: 200px 20px 60px 40px;
+    width: 60%;
+    width:60%;
+    background-color: antiquewhite;
+    height: 600px;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    left: 229px;
+    top: 52px;
+    color: azure;
+}
+.itemList{
+     background-color: rgb(198, 235, 222);
+     border-radius: 4px;
+     padding: 2px;
+}
+
+.completed-data h3{
+    position: absolute;
+    left: 229px;
+    top: 324px;
+    color: azure;
+}
+#completedList{
+    position: absolute;
+    left: 126px;
+    top: 348px;
+    color: white;
+}
+li{
+ margin-bottom: 10px;
+ 
+}
+.deleteItem{
+    background-color: red;
+    border-width: 0px;
+    border-radius: 4px;
+    width: 50px;
+    color: aliceblue;
+    padding: 2px;
+}
+.clearall{
+    position: absolute;
+    left: 278px;
+    bottom: 41px;
+    border-radius: 14px;
+    width: 61px;
+    height: 30px;
+    background-color: red;
+}
+.list ul{
+    position: absolute;
+    left: 118px;
+    top: 93px;
+}
+.list img{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 200px;
+}
+.bi-pencil-square{
+    color: white;
+}
+

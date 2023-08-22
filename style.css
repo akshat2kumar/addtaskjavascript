@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color:#9cafb7;
+
+
+}
+i{
+  cursor: pointer;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #31393c;
+    color: white;
+    padding: 25px 80px;
+    margin-bottom: 30px; 
+}
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    gap:3px;
+}
+.body{
+    background-image: url('/javascript5 copy/—Pngtree—android mobile mockup frame png_6406670.png');
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.footer{
+   position: fixed   ;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   gap:60px;
+   align-items: center;
+   background-color: #31393c;
+   justify-content: center;
+}
+
+
+.box-b{
+    flex:1;
+    background-color: repeat;
+    margin-left:20px;
+    align-items: center ;
+    color:white;
+    padding-top:5%;  
+    height: 420px;
+    min-height: 100px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(4,223px);
+    justify-content: center;
+}
+
+.listing-data{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+
+}
+.bi-x-lg{
+   position: absolute;
+   right: 8px;
+   top:8px;
+   color: red;
+}
+@media (max-width:1000px){
+    .list{
+        grid-template-columns: repeat(2,223px);
+    }
+    .data{
+        width: 600px;
+        height: 500px;
+        margin:20px  200px ;
+    }
+}
+@media (max-width:700px){
+    .list{
+        grid-template-columns: repeat(1,223px);
+    }
+    .data{
+        width: 500px;
+        height: 400px;
+        margin:0px  28px ;
+    }
+    
+    .details{
+     width: 200px;
+     height: 200px;
+     margin:10px ;
+     padding: 0;
+    }
+    .type-here{
+     width: 80px;
+     height: 60px;
+     margin:30px ;
+     padding: 0;
+    }
+}
+@media (max-width:500px){
+    .list{
+        grid-template-columns: repeat(1,223px);
+    }
+    .data{
+        width: 400px;
+        height: 400px;
+        margin:30px ;
+        padding: 0;
+        display: flex;
+        flex-direction:column;
+
+    }
+    .details{
+        width: 400px;
+        height: 400px;
+        margin:30px ;
+        padding: 0;
+    }
+    .type-here{
+        width: 100px;
+        height: 70px;
+        margin:30px ;
+        padding: 0;
+        position: absolute;
+        left: 0; 
+        bottom: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .data button{
+        position: absolute;
+        bottom: 70px;
+        left: 170px;
+    } 
+}
